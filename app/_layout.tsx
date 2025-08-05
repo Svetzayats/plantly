@@ -11,7 +11,7 @@ export default function RootLayout() {
     QuickActions.setItems([
       {
         title: "Add a plant",
-        icon: Platform.OS === "ios" ? "symbol:leaf  " : "leaf",
+        icon: Platform.OS === "ios" ? "symbol:leaf" : "leaf",
         id: "add-plant",
         params: {
           href: "/new",
