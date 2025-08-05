@@ -14,6 +14,7 @@ export default function Layout() {
         name="index"
         options={{
           title: "Home",
+          headerBackVisible: false,
           headerRight: () => (
             <Link href="/new" asChild>
               <Pressable hitSlop={20}>
